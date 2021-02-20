@@ -6,7 +6,4 @@ $servername = $url["host"];
 $username = $url["user"];
 $password = $url["pass"];
 $dbname = substr($url["path"], 1);
-
-echo "Extracted Info $servername $username $password $dbname<br>";
-
 ?>

@@ -24,7 +24,9 @@ $sql_details = array(
     'db'   => $dbname,
     'host' => $servername
 );
- 
+
+// echo var_dump($sql_details);
+
 require('./ssp.class.php' );
  
 echo json_encode(
